@@ -5,7 +5,7 @@ This repository contains a reproduction code of node-hid not show previous conne
 ## Our use case
 The [Agent](https://github.com/UltimateHackingKeyboard/agent) application uses [node-hid](https://github.com/node-hid/node-hid/) to communicate with a keyboard.
 The keyboard contains more interface. The communication interface is 0,
-When Agent is updating to the new version it deploys the new version of node-hid 0.7.3 (old version 0.5.7) then node-hid does not show the 0 interface until the keyboard is not unplugged and plugged again to the computer.
+When Agent is updating to the new version it deploys the new version of node-hid 0.7.0 (old version 0.6.0) then node-hid does not show the 0 interface until the keyboard is not unplugged and plugged again to the computer.
 
 ## Reproduction
 1. clone the repository
